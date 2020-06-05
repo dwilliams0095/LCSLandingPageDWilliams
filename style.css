@@ -1,0 +1,150 @@
+body {
+    /* background-image: linear-gradient(rgb(209, 210, 211), rgb(90, 142, 221));*/
+    background: #F9E07E;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* navigation css */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header {
+    background: #1642BF;
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.logo {
+    float: left;
+    padding: 10px 0;
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    position: relative;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #F9E07E;
+    font-size: 15px;
+}
+nav a:hover {
+    color: #F0B400;
+}
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #F0B400;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 200ms;
+}
+nav a:hover::before {
+    width: 100%;
+}
+/* slideshow css */
+.carousel-container {
+    width: 96.8%;
+    background-color: #116DD2;
+    margin: auto;
+    padding: 20px;
+}
+.carousel-slide {
+    padding: 0px 350px 0px;
+}
+.vid {
+    float: left;
+    padding: 10px 0;
+    margin: 25px;
+}
+
+h3 {
+    color: #000082;
+    margin-left: 710px;
+}
+p {
+    color: #000082;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+/* members */
+.members {
+    padding-top: 50px;
+}
+.carousel-container2 {
+    width: 96.8%;
+    background-color: #116DD2;
+    margin: auto;
+    padding: 20px;
+}
+.carousel-slide2 {
+    padding: 0px 350px 0px;
+}
+/* footer */
+.footer {
+    width: 80%;
+    margin: 0 auto;
+}
+footer {
+    background: #1642BF;
+}
+footer::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.bottom {
+    /*float: left;*/
+}
+.bottom ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.bottom li {
+    display: inline-block;
+    margin-right: 210px;
+    padding-bottom: 20px;
+    /*padding-top: 25px;*/
+    position: relative;
+}
+.bottom a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #F9E07E;
+    font-size: 15px;
+}
+.bottom a:hover {
+    color:#F0B400;
+}
+.bottom a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #F0B400;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 200ms;
+}
+.bottom a:hover::before {
+    width: 100%;
+}
